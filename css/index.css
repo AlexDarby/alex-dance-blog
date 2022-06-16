@@ -6,6 +6,7 @@
   --navy: #17050f;
   --blue: #082840;
   --white: #fff;
+  --pink: rgb(255, 61, 151);
 }
 
 /* Global stylesheet */
@@ -229,7 +230,8 @@ a[href].post-tag:visited {
 }
 a[href].post-tag:hover,
 a[href].post-tag:focus {
-  background-color: var(--lightgray);
+  background-color: var(--pink);
+  color: white;
 }
 .postlist-item > .post-tag {
   align-self: center;
